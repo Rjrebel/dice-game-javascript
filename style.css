@@ -1,0 +1,33 @@
+
+.upper{
+    height: 50vh;
+}
+.lower{
+    height: 50vh;
+    background-color: black;
+}
+
+#game-box{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.shake{
+    animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+
+    0%{
+        transform: rotate(18deg);
+    }
+    50%{
+        transform: rotate(-18deg);
+    }
+    100%{
+        transform: rotate(18deg);
+    }
+    
+}
